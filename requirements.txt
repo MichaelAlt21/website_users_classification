@@ -1,0 +1,7 @@
+category-encoders==2.6.4
+numpy==1.22.4
+phik==0.12.5
+scikit-image==0.18.3
+scipy==1.9.1
+seaborn==0.11.1
+mpmath==1.2.1

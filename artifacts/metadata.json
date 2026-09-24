@@ -1,0 +1,25 @@
+{
+    "model_name": "SVC_RBF",
+    "sklearn_version": "0.24.2",
+    "target": "age_category",
+    "age_categories": {
+        "0": "<18",
+        "1": "18-25",
+        "2": "26-40",
+        "3": "41-55",
+        "4": "56+"
+    },
+    "best_params": {
+        "classifier__C": 1.0,
+        "classifier__gamma": "scale",
+        "classifier__class_weight": "balanced",
+        "feature_selection__estimator__C": 0.3,
+        "feature_selection__threshold": "median"
+    },
+    "cv_macro_f1": 0.9017,
+    "test_macro_f1": 0.8972,
+    "test_macro_precision": 0.8906,
+    "test_macro_recall": 0.9063,
+    "n_user_features": 51,
+    "n_selected_features": 46
+}
