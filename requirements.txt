@@ -6,3 +6,5 @@ scipy==1.9.1
 seaborn==0.11.1
 mpmath==1.2.1
 matplotlib==3.3.4
+pandas==2.9.3
+joblib==1.5.6
